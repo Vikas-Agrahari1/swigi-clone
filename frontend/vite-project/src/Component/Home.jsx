@@ -3,7 +3,7 @@ import Header from './Header'
 import Hero from './Hero'
 import MartCard from './MartCard'
 import DineoutDisplay from './DineoutDisplay'
-import Footer from './Footer.Jsx'
+import Footer from './Footer.jsx'
 
 
 function Home() {
