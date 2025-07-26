@@ -16,7 +16,7 @@ function DineoutDisplay() {
           </div>
         </div>
       </div>
-      <img className='py-12' src="../public/assets/App_download_banner.avif" alt="App-Download_Banner" />
+      <img className='py-12' src="/assets/App_download_banner.avif" alt="App-Download_Banner" />
       </>
     );
   }
