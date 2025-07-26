@@ -4,7 +4,7 @@ export default function Header() {
     return (
       <div className="bg-[#ff5200] flex justify-between items-center px-38 py-8 text-white">
         <div>
-          <img className="h-12 w-40" src="/assets/Swiggy.png" alt="Swiggy_logo" />
+          <img className="h-12 w-40" src="../public/assets/Swiggy.png" alt="Swiggy_logo" />
         </div>
         <div className="flex gap-8 text-lg font-bold">
           <a href="https://www.swiggy.com/corporate/" className="py-2">Swiggy Corporate</a>

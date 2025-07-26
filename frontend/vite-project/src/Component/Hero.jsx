@@ -6,8 +6,8 @@ export default function Hero() {
     return (
       <>
       <div className="bg-[#ff5200] text-white py-1  relative ">
-        <img className="absolute w-[16%] h-[78%] right-0 pt-0" src="/assets/Sushi.avif" alt="" />
-        <img className="absolute w-[16%] h-[78%] left-0 pt-0" src="/assets/Veggies.avif" alt="" />
+        <img className="absolute w-[16%] h-[78%] right-0 pt-0" src="../public/assets/Sushi.avif" alt="" />
+        <img className="absolute w-[16%] h-[78%] left-0 pt-0" src="../public/assets/Veggies.avif" alt="" />
         <div>
           <div className="text-5xl font-semibold w-180 py-8 text-center  container mx-auto">
             <h1>Order food & groceries. Discover best restaurants. Swiggy it!</h1>
@@ -19,10 +19,10 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center items-center py-2 px-45">
-          <Link to="/restaurants"><img  className="w-76 h-80"  src="/assets/sFirst.avif" alt="Food Delivery" /></Link>
-          <a href=""><img  className="w-76 h-80" src="/assets/sSe.avif" alt="Instamart" /></a>
-          <a href=""><img  className="w-76 h-80" src="/assets/sTh.avif" alt="Dineout" /></a>
-          <a href=""><img  className="w-76 h-80" src="/assets/sFo.avif" alt="Geni" /></a>
+          <Link to="/restaurants"><img  className="w-76 h-80"  src="../public/assets/sFirst.avif" alt="Food Delivery" /></Link>
+          <a href=""><img  className="w-76 h-80" src="../public/assets/sSe.avif" alt="Instamart" /></a>
+          <a href=""><img  className="w-76 h-80" src="../public/assets/sTh.avif" alt="Dineout" /></a>
+          <a href=""><img  className="w-76 h-80" src="../public/assets/sFo.avif" alt="Geni" /></a>
         </div>
         </div>
         <Content/>
